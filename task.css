@@ -1,0 +1,171 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url("ph1.jpg");
+background-repeat: repeat;
+background-size: cover;
+background-color: rgba(60, 80, 120, 0.5);
+overflow: auto;
+background-attachment: scroll;
+overflow-y:scroll;
+
+}
+h1{
+color: white;
+font-family:Georgia ;
+font-size:40px;
+display:inline-block;
+}
+h1::first-letter{
+color: #0d3037;
+font-size: 45px
+}
+.x{
+background-color: rgba(60, 80, 120, 0.5);
+background-position: center;
+height: 1050px;
+width: 1050px;
+border:5px silver dotted;
+border-radius: 15px;
+background-image: url("user.png");
+background-repeat: no-repeat;
+background-position: center 80px;
+margin: 30px;
+display:block;
+}
+a{
+color: silver;
+font-size: 30px;
+font-family: Georgia;
+margin-left: 10px;
+margin-top: 50px;
+display: inline-block;
+cursor: pointer;
+}
+a:hover{
+color: #0d3037;
+}
+
+textarea{
+font-family: Georgia;
+background-color: rgba(60, 80, 120, 0.5);
+color :white;
+border-color: white;
+border-style: dotted;
+font-family:Georgia ;
+border-width: 3px;
+border-radius: 15px
+
+}
+textarea:hover{
+border-color: #0d3037;
+outline-color: none
+
+
+
+}
+
+label1 {
+color: white;
+font-size: 30px;
+font-family:Georgia;
+padding-top:125px;
+display: block;
+
+}
+label {
+color: white;
+font-size: 30px;
+font-family:Georgia;
+padding:10px;
+display: block;
+
+}
+ select{
+   color: silver
+ }
+
+input{
+background-color: rgba(60, 80, 120, 0.5); ;
+color :white;
+border-color: white;
+border-style: dotted;
+font-family:Georgia ;
+border-radius: 15px;
+font-size: 30px;
+margin-top: 15px;
+}
+input:hover{
+border-color: #0d3037;
+outline-color: none
+
+
+}
+
+h2::first-letter{
+color: #0d3037;
+font-size: 40px;
+font-family: Georgia
+}
+h2{
+color: white;
+margin-left: 20px
+}
+
+label2{
+color: white;
+font-size: 20px;
+font-family:Georgia;
+display: inline-block;
+margin: 20px
+}
+label2::first-letter{
+  color:#0d3037 ;
+  font-size: 25px
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-family:Georgia;
+}
+p::first-letter{
+  color: #0d3037;
+  font-size: 25px;
+
+
+}
+a1{
+  color: silver;
+  font-size: 30px;
+  font-family: Georgia;
+  display: inline-block;
+  text-decoration:underline;
+  cursor:pointer;
+
+  }
+  a1:hover{
+  color:#0d3037;
+  margin-bottom: 20px
+  }
+
+
+.b{
+display: inline-block;
+}
+:focus{
+  border:2px #0d3037 solid
+}
+.c{
+  display: block;
+  height: 29px;
+  width: 60px;
+  font-family: Georgia;
+  font-size: 20px;
+  color: :#0d3037;
+margin-top: 15px;
+}
+.c:hover{
+
+cursor: pointer;
+
+}
